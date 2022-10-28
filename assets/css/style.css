@@ -1,0 +1,125 @@
+/* *{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/back.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contenedor .bloque{
+    margin: 0px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor .bloque div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.5);
+    box-shadow: 0px 0px 6px 2px #000000 inset;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.contenedor .bloque p{
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+
+
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ * {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+ 
+ html {
+     height: 100%;
+ }
+ 
+ body {
+     background: url(../img/back.jpg);
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     font-family: 'Roboto', sans-serif;
+     /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
+ }
+ 
+ .container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .clock {
+     font-size: 32px;
+     text-shadow: -1px 0px 15px rgba(0,0,0,0.25);
+     color:rgb(62, 55, 55);
+ }
+ 
+ .number {
+     display: inline-block;
+     width: 140px;
+     font-size: 128px;
+     font-family: 'Roboto', sans-serif;
+     text-align: center;
+     text-shadow: -1px 0px 15px rgba(37, 27, 27, 0.25);
+     border: none;
+     color: rgb(62, 55, 55);
+     background-color: transparent;
+ 
+ }
+ 
+ .buttons button {
+     margin: 0 7px;
+     padding: 40px;
+     border: none;
+     border-radius: 50%;
+ }
+ 
+ #play {
+     background-image: url('../img/play.png');
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ #stop {
+     background-image: url('../img/stop.png');
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ #play:active {
+     background-color: lightgreen;
+ }
+ 
+ #stop:active {
+     background-color: lightcoral;
+ }
+
